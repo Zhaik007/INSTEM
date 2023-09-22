@@ -148,7 +148,7 @@ function clearDatawithin() {
 }
 function createGrid(x) {
   clearGrid();
-  let fat = `<td style="padding:3px 3px;width:40px;height:40px;border:1px solid black;"><img src="/img/gender.png" style="width:100%;height:100%;"> </td>`;
+  let fat = `<td style="padding:3px 3px;width:40px;height:40px;border:1px solid black;"><img src="img/gender.png" style="width:100%;height:100%;"> </td>`;
   for (let k = 0; k < akechi.length; k++) {
     fat += `<td style="border:1px solid black;">${mamasi[k]} </td>`;
   }
@@ -338,7 +338,7 @@ function phenchik() {
     }
     clrvariants.push(clr);
   }
-  let fat = `<td style="padding:3px 3px;width:40px;height:40px;border:1px solid black;"><img src="/img/gender.png" style="width:100%;height:100%;"> </td>`;
+  let fat = `<td style="padding:3px 3px;width:40px;height:40px;border:1px solid black;"><img src="img/gender.png" style="width:100%;height:100%;"> </td>`;
   for (let k = 0; k < akechi.length; k++) {
     fat += `<td style="border:1px solid black;">${mamasi[k]} </td>`;
   }
