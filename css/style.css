@@ -103,7 +103,7 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #ddd;;}
 .main{
-  margin-top:50vh;
+  margin-top:270px;
 }
 h1{
   font-size: 72px;
