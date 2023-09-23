@@ -167,8 +167,8 @@ h2{
   display: inline-block;
 }
 .solution {
-  margin: 30px auto;
-  width: 90vw;
+  margin: 30px 0 30px 0;
+  width: 100%;
   height: 60vw;
   overflow: auto;
   top: 0;
@@ -249,8 +249,7 @@ label{
 .clear{
   color: #a51d1d;
   border:2px solid #a51d1d;
-  position: relative;
-  right: -32vw;
+  float: right;
 }
 .clear:hover {
   background-color: #a51d1d;
@@ -276,7 +275,7 @@ label{
   width: 50vw;
 }
 .Phenomumkin {
-  width: 50vw;
+  width: 50vw -50px;
 }
 .Phenomumkin span{
   color:#be1b1b;
