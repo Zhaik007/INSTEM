@@ -7,7 +7,7 @@
   background-color: #f3f4e2;
 }
 .header {
-  width: 100%;
+  width: 100vw;
   position: fixed;
   padding-bottom:30px;
   background: white;
