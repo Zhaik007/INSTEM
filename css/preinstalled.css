@@ -1,0 +1,249 @@
+* {
+    font-family: "Euclid Circular B", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  .html{
+    background-color: #f3f4e2;
+  }
+  .header {
+    width: 100vw;
+    position: fixed;
+    padding-bottom:30px;
+    background: white;
+    height: 90px;
+    z-index: 50;
+  }
+  .header-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    top:-15px;
+  }
+  .header-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    position: relative;
+  }
+  .header-logo p {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .coolest{
+    display: inline;
+  }
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-column-gap: 35px;
+    -moz-column-gap: 35px;
+    column-gap: 35px;
+  }
+  .nav ul li a:hover{
+    color:rgb(101, 162, 9);
+  }
+  .nav ul{
+    list-style: none;
+  }
+  .nav ul li{
+    position: relative;
+    float: left;
+  }
+  .nav ul li a{
+    font-size: 20px;
+    padding: 15px;
+    color:#333;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+  }
+  .nav ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #fff;
+    display: none;
+  }
+  .nav ul li ul li{
+    width:100%;
+    border-top:1px solid rgba(0,0,0,.1) ;
+  }
+  .nav ul li ul li ul{
+    left:201px;
+    top:-1px;
+  }
+
+  .nav ul li:focus-within>ul,.nav ul li:hover > ul{
+      display: initial;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #ddd;;}
+  .main{
+    margin-top:270px;
+  }
+  h1{
+    font-size: 72px;
+    text-align: center;
+  }
+  article{
+    margin-bottom: 50px;
+    line-height: 20px;
+  }
+  .video{
+    display: flex;
+    column-gap: 60px;
+  }
+  .card {
+    width: 90vw;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 8px;
+    }
+    .card-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 500ms;
+    object-fit:contain;
+    object-position: 50%;
+    display: block;
+    }
+    .card:hover .card-image {
+        transform: rotate(5deg)
+        scale(1.25);
+      }
+  .container {
+    /* outline: 2px solid #000; */
+    margin: 20px 50px;
+    padding: 0;
+    border: none;
+  }
+  .Glossary{
+    margin: 20px 0;
+  }
+  h2{
+    text-align: center;
+    margin: 20px;
+  }
+  .Glossary li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .Glossary li span{
+    color:rgb(140, 8, 8);
+    font-weight: bold;
+  }
+  .grid {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    outline: 1px solid #000;
+    display: inline-block;
+  }
+  td{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .solution {
+    margin: 30px 0 30px 0;
+    width: 100%;
+    height: 60vw;
+    overflow: auto;
+    top: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .solution::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+  }
+  .solution::-webkit-scrollbar-track {
+    background: none;
+    border-radius: 8px;
+  }
+  .solution::-webkit-scrollbar-thumb {
+    background: #9fa7c7;
+    border-radius: 8px;
+    border: 3px solid #e9eefe;
+  }
+  .solution::-webkit-scrollbar-thumb:hover {
+    background: #8c94b4;
+  }
+  iframe{
+    width: 43vw;
+    height: 25vw;
+  }
+  .input{
+    border:1px solid black;
+    outline:none;
+    display:inline-block;
+    height:34px;
+    vertical-align:middle;
+    position:relative;
+    border-radius:22px;
+    width:220px;
+    box-sizing:border-box;
+    padding:18px; 
+  }
+  label{
+    font-size: large;
+  }
+  .workaholik{
+    color: #1da531;
+    border:2px solid #1da531;
+    background-color: inherit;
+      cursor: pointer;
+      border-radius: 15px;
+      font-size: 1rem;
+      line-height: 2.5rem;
+      max-width: 120px; 
+      width: 100%; 
+      letter-spacing: 0.1rem;
+      font-weight: 400;
+      position: relative;
+      text-decoration: none;
+      justify-content: center;
+      transition: all 500ms ease-in;
+  }
+  .workaholik:hover {
+    color: #fff;
+    border: 2px solid rgba(255, 0, 0, 0);
+    background-color: #1da531;
+  }
+
+  .download_btn{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(54, 91, 238);
+    border: none;
+  }
+  .download_btn a{
+    color: rgb(255, 255, 255);  
+  }

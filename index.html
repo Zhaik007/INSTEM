@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Punnets Square</title>
-    <link rel="shortcut icon" href="img/logotype.jpg" />
+    <link rel="shortcut icon" href="img/Punnet_Square/logotype.jpg" />
+    <link rel="stylesheet" href="css/preinstalled.css">
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 <body>
     <header class="header">
         <div class="container">
@@ -25,17 +26,27 @@
 
                 </div>
                 <nav class="nav">
-                    <a href="#about">О проекте</a>
-                    <div class="dropdown">
-                        <button class="dropbtn"><a href="">Предметы</a></button>
-                        <div class="dropdown-content">
-                            <a href="#">Математика</a>
-                            <a href="#">Биология</a>
-                            <a href="#">Физика</a>
-                        </div>
-                    </div>
-                    <a href="#news">Новости</a>
-                    <a href="#contacts">Контакты</a>
+                    <ul>
+                        <li>
+                            <a href="#about">О проекте</a>
+                        </li>
+                        <li><a href="">Предметы</a>
+                            <ul>
+                                <li><a href="#">Математика</a></li>
+                                <li><a href="#">Биология</a>
+                                    <ul>
+                                        <li><a href="index.html">Решетка Пеннета</a></li>
+                                        <li><a href="/html/chi_square.html">Chi_Square</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Физика</a></li>
+                                <li><a href="#">Химия</a></li>
+                                <li><a href="#">Информатика</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#news">Новости</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    </ul>
                 </nav>
             </div>
         </div>
@@ -46,7 +57,7 @@
         width: 100vw;
         position: relative;
         top:120px;">
-        <img src="img/Mendelle.jpg" alt="" width="100%" >
+        <img src="img/Punnet_Square/Mendelle.jpg" alt="" width="100%" >
     </div>
     <div class="main">
         <div class="container">
@@ -54,7 +65,7 @@
                 <h1>Вклад Грегоря Менделя в развитие генетики</h1>
                 <article class="Mendellinf">
                     <div class="card">
-                        <img src="img/vt.png" alt="..." class="card-image" />
+                        <img src="img/Punnet_Square/vt.png" alt="..." class="card-image" />
                     </div>
                     <div>
                         Грегор Иоганн Мендель (1822-1884) - основоположник генетики.
@@ -88,7 +99,7 @@
                     </p>
                 </article>
                 <figure class="card">
-                    <img src="img/цвц.png" alt="..." class="card-image" />
+                    <img src="img/Punnet_Square/цвц.png" alt="..." class="card-image" />
                     <figcaption class="card-body">...</figcaption>
                 </figure>
                 <br>
@@ -127,7 +138,7 @@
                 </article>
                 <article>
                     <figure class="card">
-                        <img src="img/gre.png" alt="..." class="card-image" />
+                        <img src="img/Punnet_Square/gre.png" alt="..." class="card-image" />
                         <figcaption class="card-body">...</figcaption>
                     </figure>
                 </article>
@@ -145,7 +156,7 @@
                     одним и тем же правилам. И передача одного признака не зависела от передачи другого.
                     <article>
                         <figure class="card">
-                            <img src="img/пут.png" alt="..." class="card-image" />
+                            <img src="img/Punnet_Square/пут.png" alt="..." class="card-image" />
                             <figcaption class="card-body">...</figcaption>
                         </figure>
                     </article>
@@ -178,7 +189,7 @@
 
                     <article>
                         <figure class="card">
-                            <img src="img/re.png" alt="..." class="card-image" />
+                            <img src="img/Punnet_Square/re.png" alt="..." class="card-image" />
                             <figcaption class="card-body">...</figcaption>
                         </figure>
                     </article>
@@ -218,7 +229,7 @@
                     </article>
                     <article>
                         <figure class="card">
-                            <img src="img/ва.png" alt="..." class="card-image" />
+                            <img src="img/Punnet_Square/ва.png" alt="..." class="card-image" />
                             <figcaption class="card-body">...</figcaption>
                         </figure>
                     </article>
@@ -250,7 +261,7 @@
                         одного из родителей.</article>
                     <article>
                         <figure class="card">
-                            <img src="img/цвцц.png" alt="..." class="card-image" />
+                            <img src="img/Punnet_Square/цвцц.png" alt="..." class="card-image" />
                             <figcaption class="card-body">...</figcaption>
                         </figure>
                     </article>
@@ -341,7 +352,30 @@
                             href="https://ru.wikihow.com/%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C-%D1%80%D0%B5%D1%88%D0%B5%D1%82%D0%BA%D1%83-%D0%9F%D0%B5%D0%BD%D0%BD%D0%B5%D1%82%D0%B0">все
                             варианты</a> возможных гибридных форм и их количественные соотношения. Как работать с Решеткой Пеннета представлено вот
                         <a target="_blank" href="https://ru.wikihow.com/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-%D1%81-%D1%80%D0%B5%D1%88%D0%B5%D1%82%D0%BA%D0%BE%D0%B9-%D0%9F%D0%B5%D0%BD%D0%BD%D0%B5%D1%82%D0%B0">тут</a>
+                        <figure class="card">
+                            <img src="img/Punnet_Square/как.png" alt="..." class="card-image" />
+                            <figcaption class="card-body">...</figcaption>
+                        </figure>
                     </article>
+                </article>
+                <article>
+                    <section>
+                    <h2>Памятки по генетике</h2>
+                    <div style="display: flex;column-gap: 40px; justify-content: center;">
+                        <div>
+                            <label for="">1-2 законы Менделя</label>
+                            <br><br>
+                        <button class="download_btn "><a href="/pdf/punnetsquare/Генетика. 1-й и 2-й законы Менделя.pdf"  download>Скачать 💾</a></button>
+                        </div>
+                        <div><label for="">3 закон Менделя</label>
+                            <br><br>
+                        <button class="download_btn"><a href="/pdf/punnetsquare/Третий закон Г.Менделя.pdf" download>Скачать 💾</a></button></div>
+                        <div><label for="">Взаимодействие аллельных генов</label>
+                            <br><br>
+                        <button class="download_btn"><a href="/pdf/punnetsquare/Виды взаимодействия аллельных генов.pdf" download>Скачать 💾</a></button></div>
+                        
+                    </div>
+                </section>
                 </article>
                 <article>
                     <section>
@@ -368,23 +402,35 @@
             </section>
             <section class="alleles">
                 <h1>Punnets Square Calculator</h1>
-                <div style=" align-items: center; display: inline; ">
-                    <label for="First">Mother</label>
-                    <input type="text" name="Fpar" id="First">
+                <div >
+                    <div style="float: left;margin-bottom: 10px; ">
+                        <div style=" align-items: center; "title="Введите в поле генотип женской особи">
+                            <label for="First">Mother</label>
+                            <input type="text" name="Fpar" id="First" class="input">
+                            <img src="img/Punnet_Square/mam.png" alt="" width="30px" style="position: relative; top:10px;">
+                        </div>
+                    </div> 
+                    <div style="float: right;">
+                        <div style=" align-items: center;" title="Введите в поле генотип мужской особи">
+                            <label for="Second">Father</label>
+                            <input type="text" name="Spar" id="Second" class="input" >
+                            <img src="img/Punnet_Square/pap.png" alt="" width="30px" style="position:relative; top:10px;">
+                        </div>
+                    </div>
                 </div>
-                <img src="img/mam.png" alt="" width="30px" style="position:relative; top:15px;margin-right: 35vw;">
-                <div style=" align-items: center; display: inline;">
-                    <label for="Second">Father</label>
-                    <input type="text" name="Spar" id="Second">
+                <div style="clear: both; align-items: center; width: 100%; display: flex; column-gap: 30px;">
+                    <button  id="GenotypeBtb" class="workaholik genotype" title="Для поиска возможных генотипов нажмите на эту кнопку"> Genotype</button>
+                    <div title="Введите в поле аллели/признаки которые вы ищете в потомстве"> 
+                            <label for="">Alleles to search</label>
+                            <input type="text" id="phinput" class="input">
+                        </div>
+                    <div style="display: flex;align-items: center;" title="Выбери тип взаимодействия аллелей (по умолчанию стоит полное доминирование),при снятии галочки поиск будет работать для случая кодоминантности">
+                        <label for="checkbox" class="checlbl" style="margin-right: 10px;" >Complete dominance</label>
+                        <input type="checkbox" name="" id="checkbox" checked>
+                    </div> 
+                    <button action="phenchik" id="phenotype" class="workaholik" title="После заполнения поля нажмите эту кнопку,для поиска по фенотипу"> Phenotype</button>
+                    <button id="clearTable" class="workaholik clear" title="Для очистки таблицы нажмите сюда"> Clear</button>
                 </div>
-                <img src="img/pap.png" alt="" width="30px" style="position:relative; top:15px;">
-                <br>
-                <br>
-                <button action="nigawork" id="GenotypeBtb" class="workaholik genotype"> Genotype</button>
-                <label for="">Alleles to search</label>
-                <input type="text" id="phinput">
-                <button action="phenchik" id="phenotype" class="workaholik"> Phenotype</button>
-                <button id="clearTable" class="workaholik clear"> Clear</button>
                 <section class="solution">
                     <table>
                         <tbody id="table">
@@ -395,18 +441,22 @@
             </section>
             <div class="SpiskiVariantov">
                 <div class="Mumkin">
-                    <button id="sortAsc" class="ascend workaholik"> Sort ⯅ </button>
-                    <button id="sortDesc" class="descend workaholik"> Sort ⯆</button>
+                    <button id="sortAsc" class="ascend workaholik" title="Сортировка по возрастанию"> Sort ⯅ </button>
+                    <button id="sortDesc" class="descend workaholik" title="Сортировка по убыванию"> Sort ⯆</button>
+                    <br><br>
+                    <label for="" title="Список уникальных генотипов">Варианты генотипов</label>
                     <ol id="ul">
                     </ol>
                 </div>
                 <div class="Phenomumkin">
-                    <button id="sortAscPhen" class="ascend workaholik"> Sort ⯅ </button>
-                    <button id="sortDescPhen" class="descend workaholik"> Sort ⯆</button>
+                    <button id="sortAscPhen" class="ascend workaholik" title="Сортировка по возрастанию"> Sort ⯅ </button>
+                    <button id="sortDescPhen" class="descend workaholik" title="Сортировка по убыванию"> Sort ⯆</button>
+                    <br><br>
+                    <label for="" title="Список генотипов удовотвлеряющих условию">Подходяющие фенотипы</label>
                     <ol id="phenul">
                     </ol>
                     <br>
-                    <label id="chances">Шансы выпадения - </label>
+                    <label id="chances" title="Сумма процентных соотношений подходящих по фенотипу генотипов">Шансы выпадения - </label>
                     <br>
                     <br>
                     <div class="probab">
@@ -414,20 +464,20 @@
                             Здесь вы можете посчитать какова вероятность выпадения как минимум <span>k</span> особей
                             удовотвлеряющих искомым свойствам из <span> n </span>детенышей</label>
                         <br><br>
-                        <label for="kun">Минимум <input type="text" id="kun"> особей</label>
+                        <label for="kun">Минимум <input type="text" id="kun" class="input" title="k"> особей</label>
                         <br><br>
-                        <label for="nun">Из <input type="text" id="nun"> особей </label>
+                        <label for="nun">Из <input type="text" id="nun" class="input" title="n"> особей </label>
                         <br><br>
                         <label id="Possibility"></label>
                         <br><br>
                         <button id="Aibyn" class="workaholik">Calculate</button>
-                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="js/index.js"></script>
+    <script src="js/punnet_square.js"></script>
+    <script src="js/preinstalled.js"></script>
 </body>
 <footer>
 </footer>
