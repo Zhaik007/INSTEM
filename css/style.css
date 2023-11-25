@@ -20,12 +20,15 @@
 .ascend{
   color: #589f48;
   border:2px solid #589f48;
+  height: 50px;
+  margin-right:15px;
 }
 .ascend:hover {
   background-color: #589f48;
 }
 .descend{
   color: #e84233;
+  height: 50px;
   border:2px solid #e84233;
 }
 .descend:hover {
@@ -35,17 +38,23 @@
   display: flex;
 }
 .Mumkin {
-  width: 50vw;
+  width: 36vw;
+  padding-right: 50px;
 }
 .Phenomumkin {
-  width: 50vw -50px;
+  width: 64vw -50px;
 }
 .Phenomumkin span{
   color:#be1b1b;
 }
 ol{
   margin-top: 10px;
-  margin-left: 30px;
+}
+#ul{
+  list-style-position: inside;
+}
+#phenul{
+  list-style-position: inside;
 }
 .probab{
   border:1px solid black;
@@ -59,4 +68,25 @@ input{
 input[type="checkbox"]{
   height: 40px;
   width:40px;
+}
+.export{
+  color: #17874E;
+  border:2px solid #17874E;
+}
+.export:hover {
+  background-color: #17874E;
+}
+
+.bardov{
+  color: #87174d;
+  border:2px solid #87174d;
+}
+.bardov:hover {
+  background-color: #87174d;
+}
+
+#table_chi td{
+  border-radius: 5%;
+  height:40px;
+  padding: 0px 15px;
 }
