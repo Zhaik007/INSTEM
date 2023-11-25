@@ -1783,4 +1783,5 @@ function DrChiTble() {
   textarea.value =
     "Genotype | Occurence\n" + observed_text.slice(0, observed_text.length - 2);
   draw_table();
+  
 }
